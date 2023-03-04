@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/Oval.svg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+.header .logo {
+    color: black;
+}
+.header .headerList {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.headerList .list {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.list .listItem .listLink {
+    color: black;
+}
+.list .listItem .listLink:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+.headerList .button {
+    padding: 10px 25px;
+    background-color: rgb(245, 13, 13);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+.leftSideFirst {
+    width: 60%;
+    padding: 0 200px;
+}
+
+.leftSideFirst .title {
+    margin-bottom: 30px;
+    font-size: 80px;
+}
+.leftSideFirst .content {
+    font-size: 22px;
+    color: gray;
+}
+.leftSideFirst .button {
+    padding: 20px 50px;
+    background-color: rgb(245, 13, 13);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.leftSideFirst .watch {
+    color: blue;
+    margin-top: 20px;
+}
+
+.rightSideFirst {
+    width: 40%;
+    position: relative;
+}
+
+.rightSideFirst .phone {
+    width: 300px;
+    height: 600px;
+    border-radius: 50px;
+}
+.rightSideFirst  .chat {
+    display: flex;
+    align-items: center;
+    background-color: gold;
+    column-gap: 20px;
+    padding: 20px 10px;
+    width: 330px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    
+}
+
+.text {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    color: gray;
+    font-size: 20px;
+}
+
+.listInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.listInfo .listItemInfo {
+    padding: 20px 50px;   
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 35px;
+    
+}
+
+.about .leftSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.about .leftSide .aboutList {
+    background-color: white;
+    border-radius: 10px;
+    width: 210px;
+    padding: 30px 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.about .leftSide .aboutList .titleAboutLeft {
+    font-size: 15px;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about .leftSide .aboutList .contentAboutLeft {
+    color: gray;
+}
+
+
+.about .rightSide {
+    /* padding: 0 130px; */
+}
+
+.about .rightSide .titleAboutRight {
+    font-size: 40px;
+    column-gap: -100px;
+}
+.about .rightSide .textAboutRight {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about .rightSide .button {
+    background-color: lightblue;
+    cursor: pointer;
+    color: white;
+    border: white;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.second .leftSideSecond {
+    padding: 0 300px;
+}
+.second .leftSideSecond .title {
+    font-size: 50px;
+}
+.second.leftSideSecond .content {
+    font-size: 20px;
+}
+.second .leftSideSecond .button {
+    padding: 10px 25px;
+    background-color: rgb(245, 13, 13);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.second .rightSideSecond {
+    position: relative;
+}
+.rightSideSecond .phoneTwo{
+    /* margin-right: 500px; */
+}
+.second .rightSideSecond .chatTwo {
+    display: flex;
+    align-items: center;
+    background-color: gold;
+    column-gap: 20px;
+    padding: 20px 10px;
+    width: 250px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: absolute;
+    right: 80%;
+    bottom: 25%;
+}
+
+.second .rightSideSecond .chatTwo .one {
+    font-size: 10px;
+}
+
+
+.third {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    background-color: rgb(241, 245, 247);
+    
+}
+
+.third .leftSide {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.third .leftSide .title {
+    font-size: 70px;
+}
+
+.third .leftSide .Malumot {
+    display: flex;
+}
+
+.Malumot {
+    margin-top: 50px;
+    width: 300px;
+    height: 65px;
+    background-color: white;
+    border-radius: 10px;
+}
+.Malumot .malumot .malumotnoma{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+.Malumot .malumot .orqali {
+    color: gray;
+}
+.Malumot .imagemalumot {
+    padding: 20px 30px;
+}
+
+.third .rightSide {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;padding: 50px;
+}
+.rightSide .phoneThree {
+    margin-left: 220px;
+}
+.third .rightSide .chatTwo {
+    display: flex;
+    align-items: center;
+    background-color: rgb(230, 70, 70);
+    column-gap: 20px;
+    padding: 20px 10px;
+    width: 250px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+.third .rightSide .chatTwo .one {
+    font-size: 10px;
+}
+
+
+.sarlavha {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 600px;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+.people .man {
+    /* display: flex; */
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 20px 20px;
+}
+
+.man .kasb {
+    color: gray;
+    margin-bottom: 30px;
+}
+.man .textMan {
+    font-size: 20px;
+}
+
+.see {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    color: purple;
+    margin-top: 80px;
+}
+
+
+.four {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding: 0 600px; */
+    text-align: center;
+    /* flex-direction: column; */
+    margin-top: 100px;
+    background-color: rgb(31, 29, 29);
+}
+.four h1 {
+    color: white;
+    padding-top: 100px;
+    font-size: 50px;
+}
+.four p {
+    color: gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.four  .tuldirish {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.four .tuldirish input {
+    display: flex;
+    /* text-align: center; */
+    /* align-items: center;
+    justify-content: center; */
+    /* flex-direction: column; */
+    margin-bottom: 10px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: none;
+}
+
+.four .tuldirish .button {
+    /* padding: 15px 170px; */
+    width: 400px;
+    height: 45px;
+    background-color: rgb(245, 13, 13);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 29, 29);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.foote {
+    display: flex;
+    column-gap: 150px;
+}
+
+.footer h1 {
+    color: white;
+    cursor: pointer;
+}
+.footer h3 {
+    color: white;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.footer p {
+    color: gray;
+    padding: 10px 0;
+    cursor: pointer;
+}
